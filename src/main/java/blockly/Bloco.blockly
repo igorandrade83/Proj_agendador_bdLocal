@@ -1,0 +1,1081 @@
+<?xml version="1.0" encoding="UTF-8"?><blockly bpmnAble="false" formTarget="" resourceType="JAVA" ruleDescription="Bloco" ruleName="Bloco" ruleSynchronous="false" ruleTimeout="" ruleType="I">
+  <metadata scale="1" scrollx="340.3999999999986" scrolly="-292.99999999999943" target="Anb:u5+^,0vLkL9QIqn5"/>
+  <block colour="#995ba5" id="Anb:u5+^,0vLkL9QIqn5" origintype="procedures_defreturn" output="false" tooltip="Cria uma função que possui um valor de retorno." type="procedures_defreturn" x="-67" y="8">
+    <field name="NAME">Executar</field>
+    <comment h="80" pinned="false" w="160">Bloco</comment>
+    <statement name="STACK">
+      <block colour="#0088ee" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="{$Vr_}$Edo~U%IE=@Q{8" origintype="variables_set" output="false" tooltip="Define esta variável para o valor da entrada." type="variables_set">
+        <field name="VAR">jsonObjeto</field>
+        <value name="VALUE">
+          <block colour="#4f7ba8" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="(VC/okbv~1XpPUKSbRfu" multilayer="false" namespace="cronapi.json.Operations.createObjectJson" origintype="procedures_callreturn" output="true" returntype="ObjectType.JSON" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3ECriar%20objeto%20Json%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20para%20criar%20objeto%20Json%3C/div%3E%3C/div%3E%3Cdiv%20class=%22return%22%3E%3Cstrong%3ERetorno:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Json%3C/span%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20target=%22_blank%22%20href=%22https://docs.cronapp.io/display/CRON2/cronapi.json.Operations.createObjectJson%22%3Ehttps://docs.cronapp.io/display/CRON2/cronapi.json.Operations.createObjectJson%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callreturn">
+            <mutation name="{{cronapi.json.Operations.createObjectJson}}" return-raw-type="cronapi.Var"/>
+          </block>
+        </value>
+        <next>
+          <block colour="#0088ee" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="Z:1JKCIGx?v;Xps.!WB@" origintype="variables_set" output="false" tooltip="Define esta variável para o valor da entrada." type="variables_set">
+            <field name="VAR">jsonObjeto</field>
+            <value name="VALUE">
+              <block colour="#4f7ba8" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="ZG~!R$`~L$e)0Q{N6b3p" multilayer="false" namespace="cronapi.json.Operations.toList" origintype="procedures_callreturn" output="true" returntype="ObjectType.LIST" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EJSON%20para%20lista%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20para%20converter%20Texto%20ou%20Arquivo%20para%20Lista%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Valor%20a%20ser%20lido%20:%20Objeto%3C/span%3E%3Cdiv%3E%20Texto%20ou%20Arquivo%20(Retorno%20da%20fun%C3%A7%C3%A3o%20%22Abrir%20arquivo%20para%20leitura%22)%3C/div%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22return%22%3E%3Cstrong%3ERetorno:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Lista%3C/span%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20target=%22_blank%22%20href=%22https://docs.cronapp.io/display/CRON2/cronapi.json.Operations.toList%22%3Ehttps://docs.cronapp.io/display/CRON2/cronapi.json.Operations.toList%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callreturn">
+                <mutation name="{{cronapi.json.Operations.toList}}" return-raw-type="cronapi.Var">
+                  <arg cronapi-raw-type="cronapi.Var" cronapi-type="ObjectType.OBJECT" name="Valor a ser lido"/>
+                </mutation>
+                <value name="ARG0">
+                  <block colour="#5ba593" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="YBiwsKfwU-hd1|Q%[gN2" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
+                    <field name="TEXT">[
+    {
+        "id": 4,
+        "contato": 2,
+        "titulo": "Bowling tournament",
+        "descricao": "",
+        "fusoInicio": null,
+        "dataInicio": "2020-05-09T21:00:00.000Z",
+        "dataFim": "2020-05-10T00:00:00.000Z",
+        "fusoFim": null,
+        "regraDeRecorrencia": null,
+        "recorrenciaId": null,
+        "excessaoDaRecorrencia": null,
+        "eventoDeDiaInteiro": false
+    },
+    {
+        "id": 5,
+        "contato": 2,
+        "titulo": "Take the dog to the vet",
+        "descricao": "",
+        "fusoInicio": null,
+        "dataInicio": "2020-05-10T07:00:00.000Z",
+        "dataFim": "2020-05-10T08:00:00.000Z",
+        "fusoFim": null,
+        "regraDeRecorrencia": null,
+        "recorrenciaId": null,
+        "excessaoDaRecorrencia": null,
+        "eventoDeDiaInteiro": false
+    },
+    {
+        "id": 6,
+        "contato": 2,
+        "titulo": "Call Charlie about the project",
+        "descricao": "",
+        "fusoInicio": null,
+        "dataInicio": "2020-05-11T11:30:00.000Z",
+        "dataFim": "2020-05-11T13:00:00.000Z",
+        "fusoFim": null,
+        "regraDeRecorrencia": null,
+        "recorrenciaId": null,
+        "excessaoDaRecorrencia": null,
+        "eventoDeDiaInteiro": false
+    },
+    {
+        "id": 7,
+        "contato": 3,
+        "titulo": "Meeting with Alex",
+        "descricao": "",
+        "fusoInicio": null,
+        "dataInicio": "2020-05-12T11:00:00.000Z",
+        "dataFim": "2020-05-12T12:00:00.000Z",
+        "fusoFim": null,
+        "regraDeRecorrencia": null,
+        "recorrenciaId": null,
+        "excessaoDaRecorrencia": null,
+        "eventoDeDiaInteiro": false
+    },
+    {
+        "id": 9,
+        "contato": 2,
+        "titulo": "Alex's Birthday",
+        "descricao": "",
+        "fusoInicio": null,
+        "dataInicio": "2020-05-14T02:00:00.000Z",
+        "dataFim": "2020-05-14T02:00:00.000Z",
+        "fusoFim": null,
+        "regraDeRecorrencia": null,
+        "recorrenciaId": null,
+        "excessaoDaRecorrencia": null,
+        "eventoDeDiaInteiro": true
+    },
+    {
+        "id": 12,
+        "contato": 2,
+        "titulo": "Car Service",
+        "descricao": "Might come to work later!",
+        "fusoInicio": null,
+        "dataInicio": "2020-05-24T08:30:00.000Z",
+        "dataFim": "2020-05-24T09:30:00.000Z",
+        "fusoFim": null,
+        "regraDeRecorrencia": null,
+        "recorrenciaId": null,
+        "excessaoDaRecorrencia": null,
+        "eventoDeDiaInteiro": false
+    },
+    {
+        "id": 14,
+        "contato": 3,
+        "RoomID": 2,
+        "titulo": "Replace the printer on the 1st floor",
+        "descricao": "",
+        "fusoInicio": null,
+        "dataInicio": "2020-05-24T10:00:00.000Z",
+        "dataFim": "2020-05-24T11:00:00.000Z",
+        "fusoFim": null,
+        "regraDeRecorrencia": null,
+        "recorrenciaId": null,
+        "excessaoDaRecorrencia": null,
+        "eventoDeDiaInteiro": false
+    },
+    {
+        "id": 15,
+        "contato": 1,
+        "titulo": "AttdataFiming HR Conference",
+        "descricao": "",
+        "fusoInicio": null,
+        "dataInicio": "2020-05-25T00:00:00.000Z",
+        "dataFim": "2020-05-26T00:00:00.000Z",
+        "fusoFim": null,
+        "regraDeRecorrencia": null,
+        "recorrenciaId": null,
+        "excessaoDaRecorrencia": null,
+        "eventoDeDiaInteiro": true
+    },
+    {
+        "id": 16,
+        "contato": 1,
+        "titulo": "Business Lunch with Gregory Watkins",
+        "descricao": "",
+        "fusoInicio": null,
+        "dataInicio": "2020-05-25T12:00:00.000Z",
+        "dataFim": "2020-05-25T13:00:00.000Z",
+        "fusoFim": null,
+        "regraDeRecorrencia": null,
+        "recorrenciaId": null,
+        "excessaoDaRecorrencia": null,
+        "eventoDeDiaInteiro": false
+    },
+    {
+        "id": 17,
+        "contato": 1,
+        "titulo": "Breakfast with CFO and COO",
+        "descricao": "",
+        "fusoInicio": null,
+        "dataInicio": "2020-05-27T08:30:00.000Z",
+        "dataFim": "2020-05-27T09:30:00.000Z",
+        "fusoFim": null,
+        "regraDeRecorrencia": null,
+        "recorrenciaId": null,
+        "excessaoDaRecorrencia": null,
+        "eventoDeDiaInteiro": false
+    },
+    {
+        "id": 18,
+        "contato": 1,
+        "titulo": "Job Interview - Mathew Stevens",
+        "descricao": "Junior Researcher",
+        "fusoInicio": null,
+        "dataInicio": "2020-05-27T10:00:00.000Z",
+        "dataFim": "2020-05-27T11:00:00.000Z",
+        "fusoFim": null,
+        "regraDeRecorrencia": null,
+        "recorrenciaId": null,
+        "excessaoDaRecorrencia": null,
+        "eventoDeDiaInteiro": false
+    },
+    {
+        "id": 19,
+        "contato": 1,
+        "titulo": "Review CVs with Tim",
+        "descricao": "",
+        "fusoInicio": null,
+        "dataInicio": "2020-05-27T11:00:00.000Z",
+        "dataFim": "2020-05-27T11:30:00.000Z",
+        "fusoFim": null,
+        "regraDeRecorrencia": null,
+        "recorrenciaId": null,
+        "excessaoDaRecorrencia": null,
+        "eventoDeDiaInteiro": false
+    },
+    {
+        "id": 20,
+        "contato": 1,
+        "titulo": "Lunch with Monica",
+        "descricao": "Discuss the Employee handbook",
+        "fusoInicio": null,
+        "dataInicio": "2020-05-27T12:00:00.000Z",
+        "dataFim": "2020-05-27T13:30:00.000Z",
+        "fusoFim": null,
+        "regraDeRecorrencia": null,
+        "recorrenciaId": null,
+        "excessaoDaRecorrencia": null,
+        "eventoDeDiaInteiro": false
+    },
+    {
+        "id": 21,
+        "contato": 1,
+        "titulo": "Job Interview - John Stewart",
+        "descricao": "Accountant",
+        "fusoInicio": null,
+        "dataInicio": "2020-05-27T14:00:00.000Z",
+        "dataFim": "2020-05-27T15:00:00.000Z",
+        "fusoFim": null,
+        "regraDeRecorrencia": null,
+        "recorrenciaId": null,
+        "excessaoDaRecorrencia": null,
+        "eventoDeDiaInteiro": false
+    },
+    {
+        "id": 22,
+        "contato": 1,
+        "titulo": "Job Interview - Mary Smith",
+        "descricao": "Accountant",
+        "fusoInicio": null,
+        "dataInicio": "2020-05-27T15:30:00.000Z",
+        "dataFim": "2020-05-27T16:30:00.000Z",
+        "fusoFim": null,
+        "regraDeRecorrencia": null,
+        "recorrenciaId": null,
+        "excessaoDaRecorrencia": null,
+        "eventoDeDiaInteiro": false
+    },
+    {
+        "id": 24,
+        "contato": 3,
+        "titulo": "Register new Access Cards",
+        "descricao": "",
+        "fusoInicio": null,
+        "dataInicio": "2020-05-24T12:00:00.000Z",
+        "dataFim": "2020-05-24T12:30:00.000Z",
+        "fusoFim": null,
+        "regraDeRecorrencia": null,
+        "recorrenciaId": null,
+        "excessaoDaRecorrencia": null,
+        "eventoDeDiaInteiro": false
+    },
+    {
+        "id": 25,
+        "contato": 1,
+        "titulo": "HR Lecture",
+        "descricao": "",
+        "fusoInicio": null,
+        "dataInicio": "2020-05-04T19:00:00.000Z",
+        "dataFim": "2020-05-04T21:00:00.000Z",
+        "fusoFim": null,
+        "regraDeRecorrencia": "FREQ=WEEKLY;BYDAY=TU,TH",
+        "recorrenciaId": null,
+        "excessaoDaRecorrencia": null,
+        "eventoDeDiaInteiro": false
+    },
+    {
+        "id": 26,
+        "contato": 1,
+        "titulo": "Dentist",
+        "descricao": "",
+        "fusoInicio": null,
+        "dataInicio": "2020-05-28T08:00:00.000Z",
+        "dataFim": "2020-05-28T09:00:00.000Z",
+        "fusoFim": null,
+        "regraDeRecorrencia": null,
+        "recorrenciaId": null,
+        "excessaoDaRecorrencia": null,
+        "eventoDeDiaInteiro": false
+    },
+    {
+        "id": 27,
+        "contato": 1,
+        "titulo": "Job Interview - Laura Bailey",
+        "descricao": "Helpdesk",
+        "fusoInicio": null,
+        "dataInicio": "2020-05-28T09:30:00.000Z",
+        "dataFim": "2020-05-28T10:30:00.000Z",
+        "fusoFim": null,
+        "regraDeRecorrencia": null,
+        "recorrenciaId": null,
+        "excessaoDaRecorrencia": null,
+        "eventoDeDiaInteiro": false
+    },
+    {
+        "id": 28,
+        "contato": 1,
+        "titulo": "Job Interview - Jenny Baxter",
+        "descricao": "Helpdesk",
+        "fusoInicio": null,
+        "dataInicio": "2020-05-28T11:00:00.000Z",
+        "dataFim": "2020-05-28T12:00:00.000Z",
+        "fusoFim": null,
+        "regraDeRecorrencia": null,
+        "recorrenciaId": null,
+        "excessaoDaRecorrencia": null,
+        "eventoDeDiaInteiro": false
+    },
+    {
+        "id": 31,
+        "contato": 1,
+        "titulo": "Team building prep tasks",
+        "descricao": "",
+        "fusoInicio": null,
+        "dataInicio": "2020-05-28T14:00:00.000Z",
+        "dataFim": "2020-05-28T17:00:00.000Z",
+        "fusoFim": null,
+        "regraDeRecorrencia": null,
+        "recorrenciaId": null,
+        "excessaoDaRecorrencia": null,
+        "eventoDeDiaInteiro": false
+    },
+    {
+        "id": 32,
+        "contato": 1,
+        "titulo": "Job Interview - Bernard Atkins",
+        "descricao": "Helpdesk",
+        "fusoInicio": null,
+        "dataInicio": "2020-05-24T13:30:00.000Z",
+        "dataFim": "2020-05-24T14:30:00.000Z",
+        "fusoFim": null,
+        "regraDeRecorrencia": null,
+        "recorrenciaId": null,
+        "excessaoDaRecorrencia": null,
+        "eventoDeDiaInteiro": false
+    },
+    {
+        "id": 34,
+        "contato": 1,
+        "titulo": "Review Job Applications",
+        "descricao": "",
+        "fusoInicio": null,
+        "dataInicio": "2020-05-24T15:00:00.000Z",
+        "dataFim": "2020-05-24T17:30:00.000Z",
+        "fusoFim": null,
+        "regraDeRecorrencia": null,
+        "recorrenciaId": null,
+        "excessaoDaRecorrencia": null,
+        "eventoDeDiaInteiro": false
+    },
+    {
+        "id": 35,
+        "contato": 1,
+        "titulo": "Grand Canyon tour",
+        "descricao": "",
+        "fusoInicio": null,
+        "dataInicio": "2020-05-23T00:00:00.000Z",
+        "dataFim": "2020-05-23T00:00:00.000Z",
+        "fusoFim": null,
+        "regraDeRecorrencia": null,
+        "recorrenciaId": null,
+        "excessaoDaRecorrencia": null,
+        "eventoDeDiaInteiro": true
+    },
+    {
+        "id": 40,
+        "contato": 3,
+        "titulo": "Install new laptops in conference rooms",
+        "descricao": "",
+        "fusoInicio": null,
+        "dataInicio": "2020-05-24T13:30:00.000Z",
+        "dataFim": "2020-05-24T18:00:00.000Z",
+        "fusoFim": null,
+        "regraDeRecorrencia": null,
+        "recorrenciaId": null,
+        "excessaoDaRecorrencia": null,
+        "eventoDeDiaInteiro": false
+    },
+    {
+        "id": 66,
+        "contato": 3,
+        "titulo": "Bob's Birthday",
+        "descricao": "",
+        "fusoInicio": null,
+        "dataInicio": "2020-05-29T08:00:00.000Z",
+        "dataFim": "2020-05-29T06:00:00.000Z",
+        "fusoFim": null,
+        "regraDeRecorrencia": null,
+        "recorrenciaId": null,
+        "excessaoDaRecorrencia": null,
+        "eventoDeDiaInteiro": true
+    },
+    {
+        "id": 68,
+        "contato": 1,
+        "RoomID": 2,
+        "titulo": "Breakfast with Tom",
+        "descricao": "",
+        "fusoInicio": null,
+        "dataInicio": "2020-05-24T08:30:00.000Z",
+        "dataFim": "2020-05-24T09:00:00.000Z",
+        "fusoFim": null,
+        "regraDeRecorrencia": null,
+        "recorrenciaId": null,
+        "excessaoDaRecorrencia": null,
+        "eventoDeDiaInteiro": false
+    },
+    {
+        "id": 69,
+        "contato": 2,
+        "titulo": "Team planning meeting",
+        "descricao": "",
+        "fusoInicio": null,
+        "dataInicio": "2020-05-24T10:00:00.000Z",
+        "dataFim": "2020-05-24T12:00:00.000Z",
+        "fusoFim": null,
+        "regraDeRecorrencia": null,
+        "recorrenciaId": null,
+        "excessaoDaRecorrencia": null,
+        "eventoDeDiaInteiro": false
+    },
+    {
+        "id": 70,
+        "contato": 2,
+        "titulo": "Support Phone Call",
+        "descricao": "",
+        "fusoInicio": null,
+        "dataInicio": "2020-05-24T16:00:00.000Z",
+        "dataFim": "2020-05-24T16:30:00.000Z",
+        "fusoFim": null,
+        "regraDeRecorrencia": null,
+        "recorrenciaId": null,
+        "excessaoDaRecorrencia": null,
+        "eventoDeDiaInteiro": false
+    },
+    {
+        "id": 71,
+        "contato": 2,
+        "titulo": "Business breakfast with Caroline",
+        "descricao": "",
+        "fusoInicio": null,
+        "dataInicio": "2020-05-25T09:00:00.000Z",
+        "dataFim": "2020-05-25T10:00:00.000Z",
+        "fusoFim": null,
+        "regraDeRecorrencia": null,
+        "recorrenciaId": null,
+        "excessaoDaRecorrencia": null,
+        "eventoDeDiaInteiro": false
+    },
+    {
+        "id": 72,
+        "contato": 2,
+        "titulo": "Discuss preojects' deadlines",
+        "descricao": "",
+        "fusoInicio": null,
+        "dataInicio": "2020-05-25T11:00:00.000Z",
+        "dataFim": "2020-05-25T11:30:00.000Z",
+        "fusoFim": null,
+        "regraDeRecorrencia": null,
+        "recorrenciaId": null,
+        "excessaoDaRecorrencia": null,
+        "eventoDeDiaInteiro": false
+    },
+    {
+        "id": 73,
+        "contato": 2,
+        "titulo": "Support Meeting",
+        "descricao": "",
+        "fusoInicio": null,
+        "dataInicio": "2020-05-25T15:00:00.000Z",
+        "dataFim": "2020-05-25T16:00:00.000Z",
+        "fusoFim": null,
+        "regraDeRecorrencia": null,
+        "recorrenciaId": null,
+        "excessaoDaRecorrencia": null,
+        "eventoDeDiaInteiro": false
+    },
+    {
+        "id": 74,
+        "contato": 2,
+        "titulo": "Dine with Mathew",
+        "descricao": "",
+        "fusoInicio": null,
+        "dataInicio": "2020-05-25T18:30:00.000Z",
+        "dataFim": "2020-05-25T20:00:00.000Z",
+        "fusoFim": null,
+        "regraDeRecorrencia": null,
+        "recorrenciaId": null,
+        "excessaoDaRecorrencia": null,
+        "eventoDeDiaInteiro": false
+    },
+    {
+        "id": 79,
+        "contato": 2,
+        "titulo": "Banking",
+        "descricao": "",
+        "fusoInicio": null,
+        "dataInicio": "2020-05-26T09:00:00.000Z",
+        "dataFim": "2020-05-26T10:00:00.000Z",
+        "fusoFim": null,
+        "regraDeRecorrencia": null,
+        "recorrenciaId": null,
+        "excessaoDaRecorrencia": null,
+        "eventoDeDiaInteiro": false
+    },
+    {
+        "id": 80,
+        "contato": 3,
+        "titulo": "Software updates",
+        "descricao": "",
+        "fusoInicio": null,
+        "dataInicio": "2020-05-25T10:00:00.000Z",
+        "dataFim": "2020-05-25T12:00:00.000Z",
+        "fusoFim": null,
+        "regraDeRecorrencia": null,
+        "recorrenciaId": null,
+        "excessaoDaRecorrencia": null,
+        "eventoDeDiaInteiro": false
+    },
+    {
+        "id": 81,
+        "contato": 3,
+        "titulo": "UPS maintenance",
+        "descricao": "",
+        "fusoInicio": null,
+        "dataInicio": "2020-05-25T16:30:00.000Z",
+        "dataFim": "2020-05-25T18:00:00.000Z",
+        "fusoFim": null,
+        "regraDeRecorrencia": null,
+        "recorrenciaId": null,
+        "excessaoDaRecorrencia": null,
+        "eventoDeDiaInteiro": false
+    },
+    {
+        "id": 82,
+        "contato": 2,
+        "titulo": "Support Call",
+        "descricao": "",
+        "fusoInicio": null,
+        "dataInicio": "2020-05-26T11:30:00.000Z",
+        "dataFim": "2020-05-26T12:00:00.000Z",
+        "fusoFim": null,
+        "regraDeRecorrencia": null,
+        "recorrenciaId": null,
+        "excessaoDaRecorrencia": null,
+        "eventoDeDiaInteiro": false
+    },
+    {
+        "id": 83,
+        "contato": 3,
+        "titulo": "Phone Sync with NY office ",
+        "descricao": "",
+        "fusoInicio": null,
+        "dataInicio": "2020-05-26T13:30:00.000Z",
+        "dataFim": "2020-05-26T14:30:00.000Z",
+        "fusoFim": null,
+        "regraDeRecorrencia": null,
+        "recorrenciaId": null,
+        "excessaoDaRecorrencia": null,
+        "eventoDeDiaInteiro": false
+    },
+    {
+        "id": 84,
+        "contato": 3,
+        "titulo": "Phone Sync with Boston Office",
+        "descricao": "",
+        "fusoInicio": null,
+        "dataInicio": "2020-05-26T15:00:00.000Z",
+        "dataFim": "2020-05-26T16:00:00.000Z",
+        "fusoFim": null,
+        "regraDeRecorrencia": null,
+        "recorrenciaId": null,
+        "excessaoDaRecorrencia": null,
+        "eventoDeDiaInteiro": false
+    },
+    {
+        "id": 85,
+        "contato": 3,
+        "titulo": "Server maintenance",
+        "descricao": "",
+        "fusoInicio": null,
+        "dataInicio": "2020-05-26T18:30:00.000Z",
+        "dataFim": "2020-05-26T21:30:00.000Z",
+        "fusoFim": null,
+        "regraDeRecorrencia": null,
+        "recorrenciaId": null,
+        "excessaoDaRecorrencia": null,
+        "eventoDeDiaInteiro": false
+    },
+    {
+        "id": 86,
+        "contato": 2,
+        "titulo": "Status meeting",
+        "descricao": "",
+        "fusoInicio": null,
+        "dataInicio": "2020-05-28T13:30:00.000Z",
+        "dataFim": "2020-05-28T15:30:00.000Z",
+        "fusoFim": null,
+        "regraDeRecorrencia": null,
+        "recorrenciaId": null,
+        "excessaoDaRecorrencia": null,
+        "eventoDeDiaInteiro": false
+    },
+    {
+        "id": 87,
+        "contato": 3,
+        "titulo": "Helpdesk status meeting",
+        "descricao": "",
+        "fusoInicio": null,
+        "dataInicio": "2020-05-27T10:30:00.000Z",
+        "dataFim": "2020-05-27T11:30:00.000Z",
+        "fusoFim": null,
+        "regraDeRecorrencia": null,
+        "recorrenciaId": null,
+        "excessaoDaRecorrencia": null,
+        "eventoDeDiaInteiro": false
+    },
+    {
+        "id": 88,
+        "contato": 2,
+        "titulo": "Business Lunch",
+        "descricao": "",
+        "fusoInicio": null,
+        "dataInicio": "2020-05-27T12:00:00.000Z",
+        "dataFim": "2020-05-27T13:00:00.000Z",
+        "fusoFim": null,
+        "regraDeRecorrencia": null,
+        "recorrenciaId": null,
+        "excessaoDaRecorrencia": null,
+        "eventoDeDiaInteiro": false
+    },
+    {
+        "id": 89,
+        "contato": 3,
+        "titulo": "Employee database update",
+        "descricao": "",
+        "fusoInicio": null,
+        "dataInicio": "2020-05-27T14:00:00.000Z",
+        "dataFim": "2020-05-27T15:30:00.000Z",
+        "fusoFim": null,
+        "regraDeRecorrencia": null,
+        "recorrenciaId": null,
+        "excessaoDaRecorrencia": null,
+        "eventoDeDiaInteiro": false
+    },
+    {
+        "id": 90,
+        "contato": 3,
+        "titulo": "Website upload",
+        "descricao": "",
+        "fusoInicio": null,
+        "dataInicio": "2020-05-27T07:30:00.000Z",
+        "dataFim": "2020-05-27T08:30:00.000Z",
+        "fusoFim": null,
+        "regraDeRecorrencia": null,
+        "recorrenciaId": null,
+        "excessaoDaRecorrencia": null,
+        "eventoDeDiaInteiro": false
+    },
+    {
+        "id": 91,
+        "contato": 2,
+        "titulo": "Meeting with marketing guys",
+        "descricao": "",
+        "fusoInicio": null,
+        "dataInicio": "2020-05-27T17:00:00.000Z",
+        "dataFim": "2020-05-27T18:30:00.000Z",
+        "fusoFim": null,
+        "regraDeRecorrencia": null,
+        "recorrenciaId": null,
+        "excessaoDaRecorrencia": null,
+        "eventoDeDiaInteiro": false
+    },
+    {
+        "id": 92,
+        "contato": 3,
+        "titulo": "Meeting with Internet provider",
+        "descricao": "",
+        "fusoInicio": null,
+        "dataInicio": "2020-05-28T10:30:00.000Z",
+        "dataFim": "2020-05-28T11:30:00.000Z",
+        "fusoFim": null,
+        "regraDeRecorrencia": null,
+        "recorrenciaId": null,
+        "excessaoDaRecorrencia": null,
+        "eventoDeDiaInteiro": false
+    },
+    {
+        "id": 93,
+        "contato": 3,
+        "titulo": "Bob's Birthday Party",
+        "descricao": "",
+        "fusoInicio": null,
+        "dataInicio": "2020-05-29T20:00:00.000Z",
+        "dataFim": "2020-05-29T23:30:00.000Z",
+        "fusoFim": null,
+        "regraDeRecorrencia": null,
+        "recorrenciaId": null,
+        "excessaoDaRecorrencia": null,
+        "eventoDeDiaInteiro": false
+    },
+    {
+        "id": 95,
+        "contato": 2,
+        "titulo": "Dance Practice",
+        "descricao": "",
+        "fusoInicio": null,
+        "dataInicio": "2020-05-03T18:30:00.000Z",
+        "dataFim": "2020-05-03T20:00:00.000Z",
+        "fusoFim": null,
+        "regraDeRecorrencia": "FREQ=WEEKLY;BYDAY=MO,WE",
+        "recorrenciaId": null,
+        "excessaoDaRecorrencia": null,
+        "eventoDeDiaInteiro": false
+    },
+    {
+        "id": 114,
+        "contato": 3,
+        "titulo": "Software updates",
+        "descricao": "",
+        "fusoInicio": null,
+        "dataInicio": "2020-05-04T09:00:00.000Z",
+        "dataFim": "2020-05-04T12:00:00.000Z",
+        "fusoFim": null,
+        "regraDeRecorrencia": "",
+        "recorrenciaId": null,
+        "excessaoDaRecorrencia": null,
+        "eventoDeDiaInteiro": false
+    },
+    {
+        "id": 115,
+        "contato": 1,
+        "titulo": "Breakfast at Starbucks",
+        "descricao": "",
+        "fusoInicio": null,
+        "dataInicio": "2020-05-04T08:00:00.000Z",
+        "dataFim": "2020-05-04T09:30:00.000Z",
+        "fusoFim": null,
+        "regraDeRecorrencia": "",
+        "recorrenciaId": null,
+        "excessaoDaRecorrencia": null,
+        "eventoDeDiaInteiro": false
+    },
+    {
+        "id": 116,
+        "contato": 2,
+        "titulo": "Performance review",
+        "descricao": "",
+        "fusoInicio": null,
+        "dataInicio": "2020-05-04T14:00:00.000Z",
+        "dataFim": "2020-05-04T17:00:00.000Z",
+        "fusoFim": null,
+        "regraDeRecorrencia": "",
+        "recorrenciaId": null,
+        "excessaoDaRecorrencia": null,
+        "eventoDeDiaInteiro": false
+    },
+    {
+        "id": 118,
+        "contato": 1,
+        "titulo": "HR seminar preparation",
+        "descricao": "",
+        "fusoInicio": null,
+        "dataInicio": "2020-05-05T10:00:00.000Z",
+        "dataFim": "2020-05-05T12:00:00.000Z",
+        "fusoFim": null,
+        "regraDeRecorrencia": "",
+        "recorrenciaId": null,
+        "excessaoDaRecorrencia": null,
+        "eventoDeDiaInteiro": false
+    },
+    {
+        "id": 119,
+        "contato": 3,
+        "titulo": "Helpdesk weekly meeting",
+        "descricao": "",
+        "fusoInicio": null,
+        "dataInicio": "2020-05-05T15:00:00.000Z",
+        "dataFim": "2020-05-05T16:00:00.000Z",
+        "fusoFim": null,
+        "regraDeRecorrencia": "FREQ=WEEKLY;BYDAY=WE",
+        "recorrenciaId": null,
+        "excessaoDaRecorrencia": null,
+        "eventoDeDiaInteiro": false
+    },
+    {
+        "id": 120,
+        "contato": 3,
+        "titulo": "Website upload",
+        "descricao": "",
+        "fusoInicio": null,
+        "dataInicio": "2020-05-07T07:00:00.000Z",
+        "dataFim": "2020-05-07T08:30:00.000Z",
+        "fusoFim": null,
+        "regraDeRecorrencia": "",
+        "recorrenciaId": null,
+        "excessaoDaRecorrencia": null,
+        "eventoDeDiaInteiro": false
+    }
+]</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+            <next>
+              <block colour="#5ba55b" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="vMS5^e]+7s=oYH?rjoGA" origintype="controls_forEach" output="false" tooltip="Faça algumas instruções várias vezes." type="controls_forEach">
+                <field name="VAR">i</field>
+                <value name="LIST">
+                  <block colour="#0088ee" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="#J{N1`[cy8T=C)x_pLv%" origintype="variables_get" output="true" tooltip="Retorna o valor desta variável." type="variables_get">
+                    <field name="VAR">jsonObjeto</field>
+                  </block>
+                </value>
+                <statement name="DO">
+                  <block colour="#aa2f00" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="6iRtoS22T0XX+oSUkQ~4" multilayer="false" namespace="cronapi.database.Operations.insert" origintype="procedures_sql_insert_callnoreturn" output="false" returntype="ObjectType.VOID" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EInserir%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20que%20cria%20um%20novo%20registro%20no%20banco%20de%20dados%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Fonte%20de%20dados%20:%20Tabela%3C/span%3E%3Cbr%3E%3Cspan%3E%20-%20Par%C3%A2metros%20:%20Lista%3C/span%3E%3Cdiv%3E%20Par%C3%A2metros%20a%20serem%20passados%3C/div%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20target=%22_blank%22%20href=%22https://docs.cronapp.io/display/CRON2/cronapi.database.Operations.insert%22%3Ehttps://docs.cronapp.io/display/CRON2/cronapi.database.Operations.insert%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_sql_insert_callnoreturn">
+                    <mutation data="%7B%22queryBuilderJson%22:%7B%22isValid%22:true,%22isEmpty%22:false,%22operationType%22:%22field%22,%22type%22:%22insert%22,%22rulesEntity%22:%5B%7B%22entity%22:%22Scheduler%22,%22namespace%22:%22app.entity.Scheduler%22,%22alias%22:%22%22%7D%5D,%22rulesSelect%22:%5B%7B%22func%22:%22%22,%22operator%22:%22%22,%22field%22:%22contato%22,%22value%22:%22%22,%22type%22:%22string%22%7D,%7B%22func%22:%22%22,%22operator%22:%22%22,%22field%22:%22dataFim%22,%22value%22:%22%22,%22type%22:%22date%22%7D,%7B%22func%22:%22%22,%22operator%22:%22%22,%22field%22:%22dataInicio%22,%22value%22:%22%22,%22type%22:%22date%22%7D,%7B%22func%22:%22%22,%22operator%22:%22%22,%22field%22:%22descricao%22,%22value%22:%22%22,%22type%22:%22string%22%7D,%7B%22func%22:%22%22,%22operator%22:%22%22,%22field%22:%22eventoDeDiaInteiro%22,%22value%22:%22%22,%22type%22:%22boolean%22%7D,%7B%22func%22:%22%22,%22operator%22:%22%22,%22field%22:%22excessaoDaRecorrencia%22,%22value%22:%22%22,%22type%22:%22string%22%7D,%7B%22func%22:%22%22,%22operator%22:%22%22,%22field%22:%22fusoFim%22,%22value%22:%22%22,%22type%22:%22string%22%7D,%7B%22func%22:%22%22,%22operator%22:%22%22,%22field%22:%22fusoInicio%22,%22value%22:%22%22,%22type%22:%22string%22%7D,%7B%22func%22:%22%22,%22operator%22:%22%22,%22field%22:%22id%22,%22value%22:%22%22,%22type%22:%22string%22%7D,%7B%22func%22:%22%22,%22operator%22:%22%22,%22field%22:%22recorrenciaId%22,%22value%22:%22%22,%22type%22:%22string%22%7D,%7B%22func%22:%22%22,%22operator%22:%22%22,%22field%22:%22regraDeRecorrencia%22,%22value%22:%22%22,%22type%22:%22string%22%7D,%7B%22func%22:%22%22,%22operator%22:%22%22,%22field%22:%22titulo%22,%22value%22:%22%22,%22type%22:%22string%22%7D%5D,%22rulesGroupBy%22:%5B%5D,%22rulesHaving%22:%5B%5D,%22rulesOrderBy%22:%5B%5D,%22isRawSql%22:false,%22multiTenant%22:false,%22paginatorAutomatic%22:false,%22pagination%22:false%7D,%22entity%22:%22Scheduler%22,%22entityFullName%22:%22app.entity.Scheduler%22,%22type%22:%22F%22,%22params%22:%22%5B%5C%22dataFim%5C%22,%5C%22fusoFim%5C%22,%5C%22fusoInicio%5C%22,%5C%22eventoDeDiaInteiro%5C%22,%5C%22recorrenciaId%5C%22,%5C%22titulo%5C%22,%5C%22dataInicio%5C%22,%5C%22id%5C%22,%5C%22regraDeRecorrencia%5C%22,%5C%22contato%5C%22,%5C%22excessaoDaRecorrencia%5C%22,%5C%22descricao%5C%22%5D%22%7D" name="{{cronapi.database.Operations.insert}}">
+                      <arg name="dataFim"/>
+                      <arg name="fusoFim"/>
+                      <arg name="fusoInicio"/>
+                      <arg name="eventoDeDiaInteiro"/>
+                      <arg name="recorrenciaId"/>
+                      <arg name="titulo"/>
+                      <arg name="dataInicio"/>
+                      <arg name="id"/>
+                      <arg name="regraDeRecorrencia"/>
+                      <arg name="contato"/>
+                      <arg name="excessaoDaRecorrencia"/>
+                      <arg name="descricao"/>
+                    </mutation>
+                    <value name="ARG0">
+                      <block colour="#c88330" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="fCM*S@NesiO;_xF?BEgz" multilayer="false" namespace="cronapi.object.Operations.getObjectField" origintype="procedures_get_field" output="true" returntype="ObjectType.OBJECT" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EObter%20campo%20do%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20para%20obter%20campo%20do%20Objeto%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Objeto%20:%20Objeto%3C/span%3E%3Cbr%3E%3Cspan%3E%20-%20Caminho%20a%20percorrer%20:%20Texto%3C/span%3E%3Cdiv%3E%20Exemplo:%20estado%5B3%5D.uf%3C/div%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22return%22%3E%3Cstrong%3ERetorno:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Objeto%3C/span%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20target=%22_blank%22%20href=%22https://docs.cronapp.io/display/CRON2/cronapi.object.Operations.getObjectField%22%3Ehttps://docs.cronapp.io/display/CRON2/cronapi.object.Operations.getObjectField%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_get_field">
+                        <mutation name="{{cronapi.object.Operations.getObjectField}}">
+                          <arg name="Objeto"/>
+                          <arg name="Caminho a percorrer"/>
+                        </mutation>
+                        <value name="PARAM0">
+                          <block colour="#0088ee" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="joxXm_t*b#eni@Z9E84`" origintype="variables_get" output="true" tooltip="Retorna o valor desta variável." type="variables_get">
+                            <field name="VAR">i</field>
+                          </block>
+                        </value>
+                        <value name="PARAM1">
+                          <block colour="#5ba593" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="aS4@x6cf4yDX6df:A6_(" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
+                            <field name="TEXT">dataFim</field>
+                          </block>
+                        </value>
+                      </block>
+                    </value>
+                    <value name="ARG1">
+                      <block colour="#c88330" dependencyby="Anb:u5+^,0vLkL9QIqn5" id=":L64Wz1@YD:P@]AH_XCp" multilayer="false" namespace="cronapi.object.Operations.getObjectField" origintype="procedures_get_field" output="true" returntype="ObjectType.OBJECT" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EObter%20campo%20do%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20para%20obter%20campo%20do%20Objeto%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Objeto%20:%20Objeto%3C/span%3E%3Cbr%3E%3Cspan%3E%20-%20Caminho%20a%20percorrer%20:%20Texto%3C/span%3E%3Cdiv%3E%20Exemplo:%20estado%5B3%5D.uf%3C/div%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22return%22%3E%3Cstrong%3ERetorno:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Objeto%3C/span%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20target=%22_blank%22%20href=%22https://docs.cronapp.io/display/CRON2/cronapi.object.Operations.getObjectField%22%3Ehttps://docs.cronapp.io/display/CRON2/cronapi.object.Operations.getObjectField%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_get_field">
+                        <mutation name="{{cronapi.object.Operations.getObjectField}}">
+                          <arg name="Objeto"/>
+                          <arg name="Caminho a percorrer"/>
+                        </mutation>
+                        <value name="PARAM0">
+                          <block colour="#0088ee" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="U7pRM#!_6{i$3+|2L6dM" origintype="variables_get" output="true" tooltip="Retorna o valor desta variável." type="variables_get">
+                            <field name="VAR">i</field>
+                          </block>
+                        </value>
+                        <value name="PARAM1">
+                          <block colour="#5ba593" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="0)^gSJ#z#zqx=Z-/vtJ]" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
+                            <field name="TEXT">fudoFim</field>
+                          </block>
+                        </value>
+                      </block>
+                    </value>
+                    <value name="ARG2">
+                      <block colour="#c88330" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="V{k^GqJf3:|Iyv7rRtR;" multilayer="false" namespace="cronapi.object.Operations.getObjectField" origintype="procedures_get_field" output="true" returntype="ObjectType.OBJECT" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EObter%20campo%20do%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20para%20obter%20campo%20do%20Objeto%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Objeto%20:%20Objeto%3C/span%3E%3Cbr%3E%3Cspan%3E%20-%20Caminho%20a%20percorrer%20:%20Texto%3C/span%3E%3Cdiv%3E%20Exemplo:%20estado%5B3%5D.uf%3C/div%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22return%22%3E%3Cstrong%3ERetorno:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Objeto%3C/span%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20target=%22_blank%22%20href=%22https://docs.cronapp.io/display/CRON2/cronapi.object.Operations.getObjectField%22%3Ehttps://docs.cronapp.io/display/CRON2/cronapi.object.Operations.getObjectField%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_get_field">
+                        <mutation name="{{cronapi.object.Operations.getObjectField}}">
+                          <arg name="Objeto"/>
+                          <arg name="Caminho a percorrer"/>
+                        </mutation>
+                        <value name="PARAM0">
+                          <block colour="#0088ee" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="j71*$h|`OgZ4[@mA~zPE" origintype="variables_get" output="true" tooltip="Retorna o valor desta variável." type="variables_get">
+                            <field name="VAR">i</field>
+                          </block>
+                        </value>
+                        <value name="PARAM1">
+                          <block colour="#5ba593" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="$d19rXK`R%;+Xmq?2ERX" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
+                            <field name="TEXT">fusoInicio</field>
+                          </block>
+                        </value>
+                      </block>
+                    </value>
+                    <value name="ARG3">
+                      <block colour="#c88330" dependencyby="Anb:u5+^,0vLkL9QIqn5" id=",6jY%xD,Fd?5CM$EDS`j" multilayer="false" namespace="cronapi.object.Operations.getObjectField" origintype="procedures_get_field" output="true" returntype="ObjectType.OBJECT" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EObter%20campo%20do%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20para%20obter%20campo%20do%20Objeto%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Objeto%20:%20Objeto%3C/span%3E%3Cbr%3E%3Cspan%3E%20-%20Caminho%20a%20percorrer%20:%20Texto%3C/span%3E%3Cdiv%3E%20Exemplo:%20estado%5B3%5D.uf%3C/div%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22return%22%3E%3Cstrong%3ERetorno:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Objeto%3C/span%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20target=%22_blank%22%20href=%22https://docs.cronapp.io/display/CRON2/cronapi.object.Operations.getObjectField%22%3Ehttps://docs.cronapp.io/display/CRON2/cronapi.object.Operations.getObjectField%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_get_field">
+                        <mutation name="{{cronapi.object.Operations.getObjectField}}">
+                          <arg name="Objeto"/>
+                          <arg name="Caminho a percorrer"/>
+                        </mutation>
+                        <value name="PARAM0">
+                          <block colour="#0088ee" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="HNE!TMN{y.K(2jxG8TN1" origintype="variables_get" output="true" tooltip="Retorna o valor desta variável." type="variables_get">
+                            <field name="VAR">i</field>
+                          </block>
+                        </value>
+                        <value name="PARAM1">
+                          <block colour="#5ba593" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="O`8G/YZv4Vx8jbE4YU-3" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
+                            <field name="TEXT">eventoDeDiaInteiro</field>
+                          </block>
+                        </value>
+                      </block>
+                    </value>
+                    <value name="ARG4">
+                      <block colour="#c88330" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="H]VEI_fb40wmc(|$8}hr" multilayer="false" namespace="cronapi.object.Operations.getObjectField" origintype="procedures_get_field" output="true" returntype="ObjectType.OBJECT" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EObter%20campo%20do%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20para%20obter%20campo%20do%20Objeto%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Objeto%20:%20Objeto%3C/span%3E%3Cbr%3E%3Cspan%3E%20-%20Caminho%20a%20percorrer%20:%20Texto%3C/span%3E%3Cdiv%3E%20Exemplo:%20estado%5B3%5D.uf%3C/div%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22return%22%3E%3Cstrong%3ERetorno:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Objeto%3C/span%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20target=%22_blank%22%20href=%22https://docs.cronapp.io/display/CRON2/cronapi.object.Operations.getObjectField%22%3Ehttps://docs.cronapp.io/display/CRON2/cronapi.object.Operations.getObjectField%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_get_field">
+                        <mutation name="{{cronapi.object.Operations.getObjectField}}">
+                          <arg name="Objeto"/>
+                          <arg name="Caminho a percorrer"/>
+                        </mutation>
+                        <value name="PARAM0">
+                          <block colour="#0088ee" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="y)PQMR#XCL_5jy%/DfF~" origintype="variables_get" output="true" tooltip="Retorna o valor desta variável." type="variables_get">
+                            <field name="VAR">i</field>
+                          </block>
+                        </value>
+                        <value name="PARAM1">
+                          <block colour="#5ba593" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="ioIT8Ud@.5Ey2Ti6)s0}" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
+                            <field name="TEXT">recorrenciaId</field>
+                          </block>
+                        </value>
+                      </block>
+                    </value>
+                    <value name="ARG5">
+                      <block colour="#c88330" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="hq55dXqM`w%$4Q-Y2NNA" multilayer="false" namespace="cronapi.object.Operations.getObjectField" origintype="procedures_get_field" output="true" returntype="ObjectType.OBJECT" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EObter%20campo%20do%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20para%20obter%20campo%20do%20Objeto%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Objeto%20:%20Objeto%3C/span%3E%3Cbr%3E%3Cspan%3E%20-%20Caminho%20a%20percorrer%20:%20Texto%3C/span%3E%3Cdiv%3E%20Exemplo:%20estado%5B3%5D.uf%3C/div%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22return%22%3E%3Cstrong%3ERetorno:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Objeto%3C/span%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20target=%22_blank%22%20href=%22https://docs.cronapp.io/display/CRON2/cronapi.object.Operations.getObjectField%22%3Ehttps://docs.cronapp.io/display/CRON2/cronapi.object.Operations.getObjectField%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_get_field">
+                        <mutation name="{{cronapi.object.Operations.getObjectField}}">
+                          <arg name="Objeto"/>
+                          <arg name="Caminho a percorrer"/>
+                        </mutation>
+                        <value name="PARAM0">
+                          <block colour="#0088ee" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="(GG[j9u?TGUdDCn#.~yb" origintype="variables_get" output="true" tooltip="Retorna o valor desta variável." type="variables_get">
+                            <field name="VAR">i</field>
+                          </block>
+                        </value>
+                        <value name="PARAM1">
+                          <block colour="#5ba593" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="`U.-rPpZ:%fiT[=z=.)y" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
+                            <field name="TEXT">titulo</field>
+                          </block>
+                        </value>
+                      </block>
+                    </value>
+                    <value name="ARG6">
+                      <block colour="#c88330" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="ja*-A{Z4!U0RqFfKpl0V" multilayer="false" namespace="cronapi.object.Operations.getObjectField" origintype="procedures_get_field" output="true" returntype="ObjectType.OBJECT" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EObter%20campo%20do%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20para%20obter%20campo%20do%20Objeto%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Objeto%20:%20Objeto%3C/span%3E%3Cbr%3E%3Cspan%3E%20-%20Caminho%20a%20percorrer%20:%20Texto%3C/span%3E%3Cdiv%3E%20Exemplo:%20estado%5B3%5D.uf%3C/div%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22return%22%3E%3Cstrong%3ERetorno:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Objeto%3C/span%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20target=%22_blank%22%20href=%22https://docs.cronapp.io/display/CRON2/cronapi.object.Operations.getObjectField%22%3Ehttps://docs.cronapp.io/display/CRON2/cronapi.object.Operations.getObjectField%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_get_field">
+                        <mutation name="{{cronapi.object.Operations.getObjectField}}">
+                          <arg name="Objeto"/>
+                          <arg name="Caminho a percorrer"/>
+                        </mutation>
+                        <value name="PARAM0">
+                          <block colour="#0088ee" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="iMd@~`foP}[`C^i.O8}6" origintype="variables_get" output="true" tooltip="Retorna o valor desta variável." type="variables_get">
+                            <field name="VAR">i</field>
+                          </block>
+                        </value>
+                        <value name="PARAM1">
+                          <block colour="#5ba593" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="](E$(ymoZ!SJJ,hJl}J4" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
+                            <field name="TEXT">dataInicio</field>
+                          </block>
+                        </value>
+                      </block>
+                    </value>
+                    <value name="ARG7">
+                      <block colour="#487f7f" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="O47;K;1rnH+;Yu%xFudE" multilayer="false" namespace="cronapi.util.Operations.generateUUID" origintype="procedures_callreturn" output="true" returntype="ObjectType.VOID" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3ECria%20identificador%20universal%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20que%20cria%20um%20identificador%20universal%20(UUID)%20e%20retorna%20como%20texto%3C/div%3E%3C/div%3E%3Cdiv%20class=%22return%22%3E%3Cstrong%3ERetorno:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Sem%20retorno%3C/span%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20target=%22_blank%22%20href=%22https://docs.cronapp.io/display/CRON2/cronapi.util.Operations.generateUUID%22%3Ehttps://docs.cronapp.io/display/CRON2/cronapi.util.Operations.generateUUID%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callreturn">
+                        <mutation name="{{cronapi.util.Operations.generateUUID}}" return-raw-type="cronapi.Var"/>
+                      </block>
+                    </value>
+                    <value name="ARG8">
+                      <block colour="#c88330" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="/nYVJWj4uM;w95!C@Gc~" multilayer="false" namespace="cronapi.object.Operations.getObjectField" origintype="procedures_get_field" output="true" returntype="ObjectType.OBJECT" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EObter%20campo%20do%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20para%20obter%20campo%20do%20Objeto%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Objeto%20:%20Objeto%3C/span%3E%3Cbr%3E%3Cspan%3E%20-%20Caminho%20a%20percorrer%20:%20Texto%3C/span%3E%3Cdiv%3E%20Exemplo:%20estado%5B3%5D.uf%3C/div%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22return%22%3E%3Cstrong%3ERetorno:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Objeto%3C/span%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20target=%22_blank%22%20href=%22https://docs.cronapp.io/display/CRON2/cronapi.object.Operations.getObjectField%22%3Ehttps://docs.cronapp.io/display/CRON2/cronapi.object.Operations.getObjectField%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_get_field">
+                        <mutation name="{{cronapi.object.Operations.getObjectField}}">
+                          <arg name="Objeto"/>
+                          <arg name="Caminho a percorrer"/>
+                        </mutation>
+                        <value name="PARAM0">
+                          <block colour="#0088ee" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="h#K6J+fy$(xSvs_kY-_(" origintype="variables_get" output="true" tooltip="Retorna o valor desta variável." type="variables_get">
+                            <field name="VAR">i</field>
+                          </block>
+                        </value>
+                        <value name="PARAM1">
+                          <block colour="#5ba593" dependencyby="Anb:u5+^,0vLkL9QIqn5" id=";qkDcHL;==2YR//s{0:M" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
+                            <field name="TEXT">regraDeRecorrencia</field>
+                          </block>
+                        </value>
+                      </block>
+                    </value>
+                    <value name="ARG10">
+                      <block colour="#c88330" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="Q8Zs6Y/avSo2COGVWb!/" multilayer="false" namespace="cronapi.object.Operations.getObjectField" origintype="procedures_get_field" output="true" returntype="ObjectType.OBJECT" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EObter%20campo%20do%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20para%20obter%20campo%20do%20Objeto%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Objeto%20:%20Objeto%3C/span%3E%3Cbr%3E%3Cspan%3E%20-%20Caminho%20a%20percorrer%20:%20Texto%3C/span%3E%3Cdiv%3E%20Exemplo:%20estado%5B3%5D.uf%3C/div%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22return%22%3E%3Cstrong%3ERetorno:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Objeto%3C/span%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20target=%22_blank%22%20href=%22https://docs.cronapp.io/display/CRON2/cronapi.object.Operations.getObjectField%22%3Ehttps://docs.cronapp.io/display/CRON2/cronapi.object.Operations.getObjectField%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_get_field">
+                        <mutation name="{{cronapi.object.Operations.getObjectField}}">
+                          <arg name="Objeto"/>
+                          <arg name="Caminho a percorrer"/>
+                        </mutation>
+                        <value name="PARAM0">
+                          <block colour="#0088ee" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="HhoamQ9j7|c:kaX#^%g5" origintype="variables_get" output="true" tooltip="Retorna o valor desta variável." type="variables_get">
+                            <field name="VAR">i</field>
+                          </block>
+                        </value>
+                        <value name="PARAM1">
+                          <block colour="#5ba593" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="8K^%:`UH9/dU,j_gYEd]" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
+                            <field name="TEXT">excessaoDaRecorrencia</field>
+                          </block>
+                        </value>
+                      </block>
+                    </value>
+                    <value name="ARG11">
+                      <block colour="#c88330" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="GGvrvf4Jr%Ljon_)Kk3J" multilayer="false" namespace="cronapi.object.Operations.getObjectField" origintype="procedures_get_field" output="true" returntype="ObjectType.OBJECT" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EObter%20campo%20do%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20para%20obter%20campo%20do%20Objeto%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Objeto%20:%20Objeto%3C/span%3E%3Cbr%3E%3Cspan%3E%20-%20Caminho%20a%20percorrer%20:%20Texto%3C/span%3E%3Cdiv%3E%20Exemplo:%20estado%5B3%5D.uf%3C/div%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22return%22%3E%3Cstrong%3ERetorno:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Objeto%3C/span%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20target=%22_blank%22%20href=%22https://docs.cronapp.io/display/CRON2/cronapi.object.Operations.getObjectField%22%3Ehttps://docs.cronapp.io/display/CRON2/cronapi.object.Operations.getObjectField%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_get_field">
+                        <mutation name="{{cronapi.object.Operations.getObjectField}}">
+                          <arg name="Objeto"/>
+                          <arg name="Caminho a percorrer"/>
+                        </mutation>
+                        <value name="PARAM0">
+                          <block colour="#0088ee" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="vRG:]qyr(V/]9;U_XzS^" origintype="variables_get" output="true" tooltip="Retorna o valor desta variável." type="variables_get">
+                            <field name="VAR">i</field>
+                          </block>
+                        </value>
+                        <value name="PARAM1">
+                          <block colour="#5ba593" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="q%*CozxHnhb=OAaNTP,`" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
+                            <field name="TEXT">descricao</field>
+                          </block>
+                        </value>
+                      </block>
+                    </value>
+                  </block>
+                </statement>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block colour="#0e9a6c" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="`K49Z|,J#pb%Dw1z-,BS" inline="true" multilayer="false" namespace="cronapi.conversion.Operations.convert" origintype="procedures_callreturn" output="true" returntype="ObjectType.VOID" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EConverter%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EConverte%20valores%20entre%20diferentes%20tipos%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20valor%20:%20Objeto%3C/span%3E%3Cbr%3E%3Cspan%3E%20-%20para%20:%20Texto%3C/span%3E%3Cbr%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22return%22%3E%3Cstrong%3ERetorno:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Sem%20retorno%3C/span%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20target=%22_blank%22%20href=%22https://docs.cronapp.io/display/CRON2/cronapi.conversion.Operations.convert%22%3Ehttps://docs.cronapp.io/display/CRON2/cronapi.conversion.Operations.convert%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callreturn" x="548" y="398">
+    <mutation name="{{cronapi.conversion.Operations.convert}}" return-raw-type="cronapi.Var">
+      <arg cronapi-raw-type="cronapi.Var" cronapi-type="ObjectType.OBJECT" name="valor"/>
+      <arg cronapi-raw-type="cronapi.Var" cronapi-type="ObjectType.STRING" name="para"/>
+    </mutation>
+    <value name="ARG0">
+      <block colour="#c88330" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="xlX`hMvj9upotzU18wFi" multilayer="false" namespace="cronapi.object.Operations.getObjectField" origintype="procedures_get_field" output="true" returntype="ObjectType.OBJECT" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EObter%20campo%20do%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20para%20obter%20campo%20do%20Objeto%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Objeto%20:%20Objeto%3C/span%3E%3Cbr%3E%3Cspan%3E%20-%20Caminho%20a%20percorrer%20:%20Texto%3C/span%3E%3Cdiv%3E%20Exemplo:%20estado%5B3%5D.uf%3C/div%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22return%22%3E%3Cstrong%3ERetorno:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Objeto%3C/span%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20target=%22_blank%22%20href=%22https://docs.cronapp.io/display/CRON2/cronapi.object.Operations.getObjectField%22%3Ehttps://docs.cronapp.io/display/CRON2/cronapi.object.Operations.getObjectField%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_get_field">
+        <mutation name="{{cronapi.object.Operations.getObjectField}}">
+          <arg name="Objeto"/>
+          <arg name="Caminho a percorrer"/>
+        </mutation>
+        <value name="PARAM0">
+          <block colour="#0088ee" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="reHaW.4jLJ(UIc!7];sW" origintype="variables_get" output="true" tooltip="Retorna o valor desta variável." type="variables_get">
+            <field name="VAR">i</field>
+          </block>
+        </value>
+        <value name="PARAM1">
+          <block colour="#5ba593" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="?Wvq_,hh;l-8;yFUc9r4" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
+            <field name="TEXT">id</field>
+          </block>
+        </value>
+      </block>
+    </value>
+    <value name="ARG1">
+      <block colour="#0e9a6c" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="N7E@u*m,Uk+|n?c/4FGi" origintype="util_dropdown" output="true" type="util_dropdown">
+        <mutation>
+          <arg name="STRING" value="String"/>
+          <arg name="BOOLEAN" value="Lógico"/>
+          <arg name="LONG" value="Inteiro Longo"/>
+          <arg name="INTEGER" value="Inteiro"/>
+          <arg name="DOUBLE" value="Numérico"/>
+          <arg name="DATETIME" value="Date e Hora"/>
+          <arg name="DATE" value="Data"/>
+          <arg name="ISODATE" value="Data em ISO"/>
+          <arg name="TIME" value="Hora"/>
+          <arg name="TEXTTIME" value="Hora Textual"/>
+          <arg name="MAP" value="Mapa"/>
+          <arg name="JSON" value="Json"/>
+          <arg name="LIST" value="Lista"/>
+          <arg name="BYTEARRAY" value="Bytes"/>
+        </mutation>
+        <field name="SELECT">INTEGER</field>
+      </block>
+    </value>
+  </block>
+  <block colour="#c88330" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="A[W(o}BgF%ePZW$k8lqz" multilayer="false" namespace="cronapi.object.Operations.getObjectField" origintype="procedures_get_field" output="true" returntype="ObjectType.OBJECT" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EObter%20campo%20do%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20para%20obter%20campo%20do%20Objeto%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Objeto%20:%20Objeto%3C/span%3E%3Cbr%3E%3Cspan%3E%20-%20Caminho%20a%20percorrer%20:%20Texto%3C/span%3E%3Cdiv%3E%20Exemplo:%20estado%5B3%5D.uf%3C/div%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22return%22%3E%3Cstrong%3ERetorno:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Objeto%3C/span%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20target=%22_blank%22%20href=%22https://docs.cronapp.io/display/CRON2/cronapi.object.Operations.getObjectField%22%3Ehttps://docs.cronapp.io/display/CRON2/cronapi.object.Operations.getObjectField%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_get_field" x="728" y="713">
+    <mutation name="{{cronapi.object.Operations.getObjectField}}">
+      <arg name="Objeto"/>
+      <arg name="Caminho a percorrer"/>
+    </mutation>
+    <value name="PARAM0">
+      <block colour="#0088ee" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="^`a4$ub4DOQ?b2Cs=aKB" origintype="variables_get" output="true" tooltip="Retorna o valor desta variável." type="variables_get">
+        <field name="VAR">i</field>
+      </block>
+    </value>
+    <value name="PARAM1">
+      <block colour="#5ba593" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="[qal;DlXc]sbe-c|*-1y" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
+        <field name="TEXT">contato</field>
+      </block>
+    </value>
+  </block>
+</blockly>

@@ -110,5 +110,162 @@
       "foreignKey": null
     },
     "serviceUrl": "api/cronapi/query/roles/"
+  },
+  "query799585": {
+    "customId": "agenda",
+    "queryName": "agenda",
+    "sourceType": "blockly",
+    "baseEntity": "app.entity.Scheduler",
+    "blockly": {
+      "type": "server",
+      "blocklyMethod": "Executar",
+      "blocklyClass": "blockly.Bloco",
+      "blocklyLanguage": "java",
+      "blocklyParams": [],
+      "blocklyJson": {
+        "namespace": "blockly.Bloco",
+        "sourcePath": "src/main/java/blockly/Bloco.blockly",
+        "language": "java",
+        "methods": [
+          {
+            "name": "Executar",
+            "hasReturn": "true",
+            "params": []
+          }
+        ]
+      },
+      "blocklyGETMethod": "Executar",
+      "blocklyPOSTMethod": "default",
+      "blocklyPUTMethod": "default",
+      "blocklyDELETEMethod": "default",
+      "blocklyFILTERMethod": "default",
+      "blocklyCOUNTMethod": "Executar"
+    },
+    "entitySimpleName": null,
+    "entityFullName": null,
+    "query": "",
+    "queryParamsValues": [],
+    "verbs": {
+      "GET": true,
+      "GETAuthorities": null,
+      "POST": true,
+      "POSTAuthorities": null,
+      "PUT": true,
+      "PUTAuthorities": null,
+      "DELETE": true,
+      "DELETEAuthorities": null,
+      "FILTER": true,
+      "FILTERAuthorities": null,
+      "COUNT": true,
+      "COUNTAuthorities": null
+    },
+    "events": {
+      "beforeInsert": null,
+      "beforeUpdate": null,
+      "beforeDelete": null,
+      "afterInsert": null,
+      "afterUpdate": null,
+      "afterDelete": null,
+      "onNavigate": null,
+      "onGetData": null
+    },
+    "defaultValues": {
+      "contato": null,
+      "dataFim": null,
+      "dataInicio": null,
+      "descricao": null,
+      "eventoDeDiaInteiro": null,
+      "excessaoDaRecorrencia": null,
+      "fusoFim": null,
+      "fusoInicio": null,
+      "id": null,
+      "recorrenciaId": null,
+      "regraDeRecorrencia": null,
+      "titulo": null
+    },
+    "defaultValuesProperties": {
+      "contato": {
+        "key": false,
+        "nullable": true,
+        "type": "String"
+      },
+      "dataFim": {
+        "key": false,
+        "nullable": true,
+        "type": "Date"
+      },
+      "dataInicio": {
+        "key": false,
+        "nullable": true,
+        "type": "Date"
+      },
+      "descricao": {
+        "key": false,
+        "nullable": true,
+        "type": "String"
+      },
+      "eventoDeDiaInteiro": {
+        "key": false,
+        "nullable": true,
+        "type": "Boolean"
+      },
+      "excessaoDaRecorrencia": {
+        "key": false,
+        "nullable": true,
+        "type": "String"
+      },
+      "fusoFim": {
+        "key": false,
+        "nullable": true,
+        "type": "String"
+      },
+      "fusoInicio": {
+        "key": false,
+        "nullable": true,
+        "type": "String"
+      },
+      "id": {
+        "key": true,
+        "nullable": false,
+        "type": "String"
+      },
+      "recorrenciaId": {
+        "key": false,
+        "nullable": true,
+        "type": "String"
+      },
+      "regraDeRecorrencia": {
+        "key": false,
+        "nullable": true,
+        "type": "String"
+      },
+      "titulo": {
+        "key": false,
+        "nullable": true,
+        "type": "String"
+      }
+    },
+    "security": {
+      "contato": null,
+      "dataFim": null,
+      "dataInicio": null,
+      "descricao": null,
+      "eventoDeDiaInteiro": null,
+      "excessaoDaRecorrencia": null,
+      "fusoFim": null,
+      "fusoInicio": null,
+      "id": null,
+      "recorrenciaId": null,
+      "regraDeRecorrencia": null,
+      "titulo": null
+    },
+    "calcFields": {},
+    "calcFieldsSecurity": {},
+    "calcFieldsProperties": {},
+    "errorHandles": {
+      "primaryKey": null,
+      "foreignKey": null
+    },
+    "serviceUrl": "api/cronapi/odata/v2/app/query799585/"
   }
 }

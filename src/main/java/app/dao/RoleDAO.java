@@ -8,6 +8,7 @@ import org.springframework.data.domain.*;
 import org.springframework.data.repository.query.*;
 import org.springframework.transaction.annotation.*; 
 
+
 /**
  * Realiza operação de Create, Read, Update e Delete no banco de dados.
  * Os métodos de create, edit, delete e outros estão abstraídos no JpaRepository
@@ -22,30 +23,30 @@ public interface RoleDAO extends JpaRepository<Role, RolePK> {
 
   /**
    * Obtém a instância de Role utilizando os identificadores
-   *
+   * 
    * @param id
-   *          Identificador
-   * @param user_id
-   *          Identificador
+   *          Identificador 
+   * @param user
+   *          Identificador 
    * @return Instância relacionada com o filtro indicado
    * @generated
-   */
-  @Query("SELECT entity FROM Role entity WHERE entity.id = :id AND entity.user.id = :user_id")
-  public Role findOne(@Param(value="id") java.lang.String id, @Param(value="user_id") java.lang.String user_id);
+   */    
+  @Query("SELECT entity FROM Role entity WHERE entity.id = :id AND entity.user = :user")
+  public Role findOne(@Param(value="id") java.lang.String id, @Param(value="user") java.lang.String user);
 
   /**
    * Remove a instância de Role utilizando os identificadores
-   *
+   * 
    * @param id
-   *          Identificador
-   * @param user_id
-   *          Identificador
+   *          Identificador 
+   * @param user
+   *          Identificador 
    * @return Quantidade de modificações efetuadas
    * @generated
-   */
+   */    
   @Modifying
-  @Query("DELETE FROM Role entity WHERE entity.id = :id AND entity.user.id = :user_id")
-  public void delete(@Param(value="id") java.lang.String id, @Param(value="user_id") java.lang.String user_id);
+  @Query("DELETE FROM Role entity WHERE entity.id = :id AND entity.user = :user")
+  public void delete(@Param(value="id") java.lang.String id, @Param(value="user") java.lang.String user);
 
 
 
